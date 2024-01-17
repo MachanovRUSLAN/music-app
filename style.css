@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.music-player {
+  width: 300px;
+  border: 1px solid red;
+  box-shadow: 0px 0px 2px 5px rgb(158, 36, 36);
+  border-radius: 20px;
+}
+.panel {
+  padding: 15px;
+}
+.panel img {
+  height: 200px;
+}
+.panel audio {
+  width: 100%;
+}
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button#stop {
+  display: none;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 20px;
+}
